@@ -1,0 +1,149 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block content %}
+<link href="css/home_page.css" rel="stylesheet" />
+</head>
+<body>
+        <!-- Header -->
+    {% include "partials/navigation.nunjucks" %}
+    <header class="mb-5 header-home" id="home">
+        <canvas id="stars"></canvas>
+        <div class="container h-100">
+
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <h1 class="text-white" id="id4">We create software 
+                        <br/> & applications</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row" id="about">
+            <div class="col-12 col-md-6 offset-md-0 px-5">
+                <img class="img-fluid" src="svg/devices.svg" alt="" />
+            </div>
+            <div class="col-12 col-md-6 offset-md-0">
+                <h2 class="red" id="id1">
+                    About us
+                </h2>
+                <span id="id13" class="text-left ">
+                    Our company is specialized at creating custom software. We build unique solutions for our clients:
+                </span>
+                <ul>
+                    <li id="id14">- automatized management systems</li>
+                    <li id="id15">- system integration software</li>
+                    <li id="id16">- mobile applications (iPhone / Android)</li>
+                    <li id="id17">- CMS open-source extensions</li>
+                    <li id="id18">- & much more.</li>
+                </ul>
+                <p class="text-right learnbutton">
+                    <a href="about.html"><span id="id6">Learn more...</span> </a>
+                </p>
+                
+                
+            </div>
+        </div>
+        <div class="row our_services">
+            <div class="col-12">
+                <h2 class="text-center my-4 my-md-5 red" id="id5">
+                    Our services
+                </h2>
+            </div>
+            <div class="col-12 bordertable">
+                <div class="row text-center tablefontstyle">
+                    <div class="col-12 col-md-4 px-4 py-5" id="id27">Development of software and web-applications</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordercenercard" id="id29">Solutions for all platforms (Windows, OSX, Linux, iOS, Android)</div>
+                    <div class="col-12 col-md-4 px-4 py-5" id="id30">Installation and configuration of CMS, CRM, ERP</div>
+                    <div class="col-12 col-md-4 px-4 py-5" id="id31">Cross-system integration components</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordercenercard" id="id32">Extensions, modules & components for Joomla and Wordpress </div>
+                    <div class="col-12 col-md-4 px-4 py-5" id="id33">E-commerce solution development, installation and support</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordernone" id="id34">Database software development </div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordercenercard bordernone" id="id35">Linux installation and administrating</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordernone" id="id36">Website analysis and search engine optimization</div>
+                </div>
+            </div>
+        </div>
+       <div class="row" id="cases">
+            <div class="col-12">
+                <h2  id="id2" class="text-center red my-4 my-md-5">
+                    Cases
+                </h2>
+            </div>
+            <div class="col-md-6 col-xl-3 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/project1.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">myle.de</h5>
+                        <span class="card-text" id="id50">UX design, SEO</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/project2.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">study-europe.net</h5>
+                        <span class="card-text" id="id51">PHP, migration, backend</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/project3.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">perspectivas.de</h5>
+                        <span class="card-text" id="id52">.NET, HTML5, full-cycle development</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/project4.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">itransition.com</h5>
+                        <span class="card-text" id="id53">Drupal 8, migration, modules</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <a href="cases.html" class="btn buttonstyle" id="id54">View all</a>
+            </div>
+        </div>
+        <div class="row my-5 py-4 scrollslick justify-content-center text-center">
+            <div class="col-12">
+                <h2  id="id48" class="text-center red my-4 my-md-5">
+                    Our clients
+                </h2>
+            </div>
+            <div class="col-11 col-sm-12">
+                <div class="responsive">
+                    <div>
+                        <img src="img/logo1.png" class="img-fluid p-2" alt="Alternate Text" />
+                    </div>
+                    <div>
+                        <img src="img/logo2.png" class="img-fluid p-2" alt="Alternate Text" />
+                    </div>
+                    <div>
+                        <img src="img/logo9.png" class="img-fluid p-2" alt="Alternate Text" />
+                    </div>
+                    <div>
+                        <img src="img/logo3.png" class="img-fluid p-2" alt="Alternate Text" />
+                    </div>
+                    <div>
+                        <img src="img/logo8.png" class="img-fluid p-2" alt="Alternate Text" />
+                    </div>
+                    <div>
+                        <img src="img/logo7.png" class="img-fluid p-2" alt="Alternate Text" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% include "partials/contactform.nunjucks" %}
+    </div>
+    <!-- /.container -->
+
+{% endblock %}
+`

@@ -1,0 +1,179 @@
+﻿{% extends "layout.nunjucks" %}
+{% block content %}
+<link href="css/about.css" rel="stylesheet" />
+<link href="css/timeline.css" rel="stylesheet" />
+</head>
+<body>
+{% include "partials/navigation.nunjucks" %}
+
+    <!-- Header -->
+    <header class="mb-5 header-size" id="home">
+        <div class="container">
+            <div class="row align-items-center header-size">
+                <div class="col-12">
+                    <h1 class="text-white align-bottom">
+                    <span class="red" id="id25"> techwizard — </span>
+                    <br />
+                    <span id="id26"> software development </span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center my-4 my-md-5 red" id="id7">
+                    About us
+                </h2>
+            </div>
+            <div class="col-12 bordertable">
+                <div class="row text-left">
+                    <p id="id55">
+                        TechWizard is a company, which is specialized at creating custom software. We build unique solutions for our clients, such as automatized management systems, system integration software, mobile applications (iPhone / Android), CMS open-source extensions, & much more.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row our_services">
+            <div class="col-12">
+                <h2 class="text-center my-4 my-md-5 red" id="id5">
+                    Our services
+                </h2>
+            </div>
+            <div class="col-12 bordertable">
+                <div class="row  text-center tablefontstyle">
+                    <div class="col-12 col-md-4 px-4 py-5" id="id27"> Development of software and web-applications</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordercenercard" id="id29">Solutions for all platforms (Windows, OSX, Linux, iOS, Android)</div>
+                    <div class="col-12 col-md-4 px-4 py-5" id="id30">Installation and configuration of CMS, CRM, ERP</div>
+                    <div class="col-12 col-md-4 px-4 py-5" id="id31">Cross-system integration components</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordercenercard" id="id32">Extensions, modules & components for Joomla and Wordpress </div>
+                    <div class="col-12 col-md-4 px-4 py-5" id="id33">E-commerce solution development, installation and support</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordernone" id="id34">Database software development </div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordercenercard bordernone" id="id35">Linux installation and administrating</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordernone" id="id36">Website analysis and search engine optimization</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container workflow">
+        <div class="page-header">
+            <h2 id="id37" class="mt-4 mt-md-5 text-center red">
+                Our workflow
+            </h2>
+            <h5 id="id38" class="text-center mb-4 mb-md-5">Project delivery steps</h5>
+        </div>
+        <ul class="timeline tablefontstyle text-center ">
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="svg/research.svg" />
+                        </div>
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id40">Requirement research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id41"> Planning & confirmation </span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="svg/planning.svg" />
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="svg/design.svg" />
+                        </div>
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id42">Design of the project</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id43">Development process</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="svg/develop.svg" />
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="svg/qa.svg" />
+                        </div>
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id44">Quality assurance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id45">Launching the project</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="svg/launch.svg" />
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="svg/support.svg" />
+                        </div>
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id46">Maintenance & support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- /.container -->
+{% endblock %}

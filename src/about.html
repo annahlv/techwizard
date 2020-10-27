@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css" />
+    <link href="css/main.css" rel="stylesheet" />
+    
+<link href="css/about.css" rel="stylesheet" />
+<link href="css/timeline.css" rel="stylesheet" />
+</head>
+<body>
+<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/techwizard.svg" class="logo"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto mt-4 mb-3">
+                    <li class="nav-item pt-2 mr-md-2  mr-xl-5">
+                        <a class="nav-link" href="./about.html" id="id1">About us</a>
+                    </li>
+                    <li class="nav-item pt-2 mr-md-2 mr-xl-5">
+                        <a class="nav-link" href="./cases.html" id="id2">Cases</a>
+                    </li>
+                    <li class="nav-item pt-2 mr-md-2 mr-xl-5">
+                        <a class="nav-link " href="./contact.html" id="id11">Contacts</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-sm-5 ml-xl-0 mt-auto mt-xl-0">
+                        <ul class="nav navbar-right flex-column ">
+                            <li class="w-100">
+                                <a class="nav-link" href="#">
+                                    <i class="material-icons">
+                                        alternate_email
+                                    </i>
+                                    mail@techwizard.by
+                                </a>
+                            </li>
+                            <li class="w-100">
+                                <a class="nav-link disabled" href="#">
+                                    <i class="material-icons">
+                                        call
+                                    </i>+375 (29) 123-45-68
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pt-2 mr-sm-5 mr-xl-0">
+                            <!--<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                                <i class="fas fa-globe"></i> 
+                                <span class="mr-5" id="id12">English</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Russian</a>
+                            </div>-->
+                            <select class="form-control internalize pl-5 float-right d-none d-lg-block" id="sel1" name="sellist1">
+                                <option id="lg" value="en">English</option>
+                                <option value="ru">Russian</option>
+    
+                            </select>
+                            <select class="form-control internalize pl-5 float-right d-lg-none" id="sel1" name="sellist1">
+                                <option id="sm" value="en">En</option>
+                                <option value="ru">Ru</option>
+                            </select>          
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="mb-5 header-size" id="home">
+        <div class="container">
+            <div class="row align-items-center header-size">
+                <div class="col-12">
+                    <h1 class="text-white align-bottom">
+                    <span class="red" id="id25"> techwizard — </span>
+                    <br />
+                    <span id="id26"> software development </span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center my-4 my-md-5 red" id="id7">
+                    About us
+                </h2>
+            </div>
+            <div class="col-12 bordertable">
+                <div class="row text-left">
+                    <p id="id55">
+                        TechWizard is a company, which is specialized at creating custom software. We build unique solutions for our clients, such as automatized management systems, system integration software, mobile applications (iPhone / Android), CMS open-source extensions, & much more.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row our_services">
+            <div class="col-12">
+                <h2 class="text-center my-4 my-md-5 red" id="id5">
+                    Our services
+                </h2>
+            </div>
+            <div class="col-12 bordertable">
+                <div class="row  text-center tablefontstyle">
+                    <div class="col-12 col-md-4 px-4 py-5" id="id27"> Development of software and web-applications</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordercenercard" id="id29">Solutions for all platforms (Windows, OSX, Linux, iOS, Android)</div>
+                    <div class="col-12 col-md-4 px-4 py-5" id="id30">Installation and configuration of CMS, CRM, ERP</div>
+                    <div class="col-12 col-md-4 px-4 py-5" id="id31">Cross-system integration components</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordercenercard" id="id32">Extensions, modules & components for Joomla and Wordpress </div>
+                    <div class="col-12 col-md-4 px-4 py-5" id="id33">E-commerce solution development, installation and support</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordernone" id="id34">Database software development </div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordercenercard bordernone" id="id35">Linux installation and administrating</div>
+                    <div class="col-12 col-md-4 px-4 py-5 bordernone" id="id36">Website analysis and search engine optimization</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container workflow">
+        <div class="page-header">
+            <h2 id="id37" class="mt-4 mt-md-5 text-center red">
+                Our workflow
+            </h2>
+            <h5 id="id38" class="text-center mb-4 mb-md-5">Project delivery steps</h5>
+        </div>
+        <ul class="timeline tablefontstyle text-center ">
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="svg/research.svg" />
+                        </div>
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id40">Requirement research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id41"> Planning & confirmation </span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="svg/planning.svg" />
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="svg/design.svg" />
+                        </div>
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id42">Design of the project</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id43">Development process</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="svg/develop.svg" />
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="svg/qa.svg" />
+                        </div>
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id44">Quality assurance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id45">Launching the project</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="svg/launch.svg" />
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="svg/support.svg" />
+                        </div>
+                        <div class="col-8">
+                            <div class="timeline-heading d-flex h-100">
+                                <span class="timeline-title align-self-center mx-auto" id="id46">Maintenance & support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- /.container -->
+
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+            <ul class="nav pt-3 pb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        <img src="img/techwizard.svg" class="logo"/>
+                    </a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link text-uppercase" href="index.html" id="id49">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="about.html" id="id1">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="cases.html" id="id2">Cases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="contact.html" id="id11" tabindex="-1" aria-disabled="true">Contacts</a>
+                </li>
+            </ul>
+            <div class="row border-top pt-3 pb-4">
+                <div class="col-12">
+                    <span>
+                        &copy; OOO "Техвизард"
+                    </span>
+
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
+    <script type="text/javascript" src="https://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="http://requirejs.org/docs/release/2.1.15/minified/require.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/ironwallaby/delaunay/master/delaunay.js"></script>
+    <script type="text/javascript" src="js/headersky.js"></script>
+    <!--<script type="text/javascript" src="js/readmorelink.js" defer></script>-->
+</body>
+</html>
+

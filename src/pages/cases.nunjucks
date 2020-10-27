@@ -1,0 +1,72 @@
+﻿{% extends "layout.nunjucks" %}
+{% block content %}
+{% include "partials/navigation.nunjucks" %}
+    <!-- Page Content -->
+    <div class="container cases_page margint">
+        <div class="row">
+            <div class="col-12 col-md-6 my-3">
+                <img class="w-100 img-fluid" src="img/project1.png" alt="Alternate Text" />
+
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="row d-flex h-100">
+                    <div class="col-12 align-self-center">
+                        <h3 class="mt-auto">myle.de</h3>
+                        <h6 id="id50">Drupal, HTML5, PayPal, SEO optimization, design
+                        </h6>
+                        <p class="fontmdsize" id="id56">We faced a task of involving new partners and customers into German B2C ecommerce platform. SEO optimization was implemented in the core of Drupal-powered website, as well as PayPal mass payment system. Our UI designers delivered new responsive design, ensuring the application is smoothly displayed both on PCs and touch-first devices. The application became convenient for content publishing and advertising.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-6 my-3">
+                <img class="w-100 img-fluid" src="img/project2.png" alt="Alternate Text" />
+
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="row d-flex h-100">
+                    <div class="col-12 align-self-center">
+                        <h3 class="mt-auto">study-europe.net</h3>
+                        <h6 id="id51">Drupal, migration, backend</h6>
+                        <p class="fontmdsize" id="id57">Our task was migrating the web-portal under development on Drupal 7. We delivered several access roles for different types of users, faceted search, Citrix webinars and livestreams, implemented rating system, user notifications, Google maps and Memcache integration. Drupal has covered the requirements of SEO optimization, registration process and content management. The application was tested under load, as long as it was promoted during the development process.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-6 my-3">
+                <img class="w-100 img-fluid" src="img/project3.png" alt="Alternate Text" />
+
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="row d-flex h-100">
+                    <div class="col-12 align-self-center">
+                        <h3 class="mt-auto">perspectivas.de</h3>
+                        <h6 id="id52">Drupal, HTML5, full-cycle development</h6>
+                        <p class="fontmdsize" id="id58">We constructed a multilingual website for Stuttgart marketing agency using Drupal 8 technology. Perspectivas is a German exchanging platform that sells services of recruiting employees abroad Germany, their adaptation and relocation, while the English version engages foreign job seekers. Backend requirements were content management, blog section, media library and FAQ; also we delivered frontend part to provide intuitive and stylish UI/UX.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <img class="w-100 img-fluid" src="img/project4.png" alt="Alternate Text" />
+
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="row d-flex h-100">
+                    <div class="col-12 align-self-center">
+                        <h3 class="mt-auto">itransition.com</h3>
+                        <h6 id="id53">Drupal 8, migration, modules</h6>
+                        <p class="fontmdsize" id="id59">We migrated renewed Itransition website on Drupal 8, as well as their old corporate blog which was earlier powered by Wordpress. The solutions we also implemented were custom anti-spam system to prevent receiving messages from bots, system maintenance and support.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include "partials/contactform.nunjucks" %}
+    </div>
+    <!-- /.container -->
+
+{% endblock %}

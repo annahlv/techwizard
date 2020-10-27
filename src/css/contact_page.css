@@ -1,0 +1,26 @@
+﻿.contact_page li > a {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+}
+.border-top {
+    height: 2.66548px;
+    border-color: #E5E5E5;
+}
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {
+    .contact_page .bg-light {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        background-color: transparent !important;
+    }
+}
+
+@media (min-width: 992px) {
+   
+}
+
+@media (min-width: 1200px) {
+}

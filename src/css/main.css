@@ -1,0 +1,347 @@
+﻿body {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    padding-top: 56px;
+
+}
+.logo {
+    width: 170px;
+}
+.tablefontstyle {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+}
+
+.tablefontstyle > div {
+   position: relative;
+}
+
+.bordertable > .tablefontstyle > div:after {
+    border-bottom: 2px solid #E5E5E5;
+    position: absolute;
+    content: '';
+    width: 90%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    left: 50%;
+}
+
+.fontmdsize {
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+    padding-top: 24px;
+}
+
+h5 {
+    font-size: 1.5rem;
+    line-height: 2.0625rem;
+}
+h3 {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: normal;
+    text-align: left;
+    color: #C74242;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 100%;
+    margin-top: 1rem;
+    margin-block-end: 1rem;
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: normal;
+    color: #FFFFFF;
+    /*text-shadow: 0px 0px 5.553rem #EB4E4E;*/
+    margin-top: 5rem;
+    max-width: 650px;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.red {
+    color: #C74242;
+}
+
+.buttonstyle {
+    background: #C74242;
+    border: 2px solid #C74242;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    font-family: 'Noto Sans' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0.6875rem 5.375rem;
+}
+
+.buttonstyle:focus {
+    color: #FFFFFF;
+    background-color: #802A2A;
+}
+
+.buttonstyle:hover {
+    color: #FFFFFF;
+    background-color: #C74242;
+}
+
+
+header {
+    height: 50vh;
+}
+
+.minusmg {
+    margin-top: -5rem;
+}
+
+.minusmgbig {
+    margin-top: -3.8rem;
+}
+
+
+.learnbutton a {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.learnbutton:hover {
+    color: #C74242;
+}
+.scrollslick {
+    display: inline;
+}
+.nav-item, .btn-light, .dropdown-item {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: normal;
+    color: #000000;
+}
+
+.nav-link .material-icons {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.btn-light {
+    border: 0.444247px solid rgba(76, 76, 76, 0.54);
+    border-radius: 4.44247px;
+    color: rgba(76, 76, 76, 0.54);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer p {
+    font-size: 0.77743125rem;
+    line-height: 1.0625rem;
+}
+
+footer li > a {
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+}
+
+footer span {
+    font-size: 0.7775rem;
+    line-height: 1.0625rem;
+    line-height: 137%;
+    vertical-align: top;
+}
+
+.footerbox {
+    background-color: #C4C4C4;
+}
+
+a.nav-link {
+    color: #000000;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 8rem;
+}
+
+.nav-item, .btn-light, .dropdown-item,
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.disabled {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3.0625rem;
+}
+
+.navbar-light .navbar-nav .nav-link.activeclass {
+    font-weight: bold;
+}
+
+
+.nav-link .material-icons {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.nav-item .internalize select,
+.navbar-nav .nav-item > ul .nav-link,
+.navbar-nav .nav-item > ul .nav-link.disabled {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: normal;
+    color: #000000;
+}
+
+/*.nav-item .internalize select {
+   
+}*/
+.internalize {
+    background: url(../svg/baseline-language-24px.svg) center left 10% no-repeat;
+    color: rgba(76, 76, 76, 0.54);
+    width: auto;
+    text-decoration: none;
+    margin-top:-5rem;
+}
+
+.error {
+    /*background-color: blue;*/
+    border-color: #dc3545;
+    /*padding-right: calc(1.5em + .75rem);
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc354…%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E); background-repeat: no-repeat;
+    background-position: center right calc(.375em + .1875rem);
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);*/
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .learnbutton {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    .bordercenercard {
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient( to top, white 15%, #E5E5E5 16%) 1 100%;
+    }
+
+    .bordertable .tablefontstyle > div.bordernone:after {
+        border-bottom: none;
+    }
+    .margin-check {
+        display: inline-block;
+        position: relative;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navbar {
+        margin-right: 0;
+        margin-left: auto;
+        border-radius: 0px 0px 0.8329625rem 0.8329625rem;
+        width: 95.75%;
+    }
+
+    header {
+        height: 50vh;
+        margin-top: -3.5rem;
+    }
+
+    .minusmg {
+        margin-top: -3.3rem;
+    }
+
+    .learnbutton {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.99955625rem;
+    }
+
+    .nav-item, .btn-light, .dropdown-item,
+    .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.disabled {
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: normal;
+        color: #000000;
+    }
+    .internalize {
+        margin-top: 0;
+    }
+}
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        right: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+
+        .navbar-collapse.collapsing {
+            height: 100vh !important;
+            margin-right: 50%;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .navbar-collapse.show {
+            right: 0;
+            background-color: #f8f9fa;
+            height: 100vh !important;
+        }
+
+            .navbar-collapse.show > ul {
+                height: 100%;
+            }
+}
+@media (min-width: 1200px) {
+    footer li > a {
+        font-size: 1rem;
+        line-height: 1.375rem;
+    }
+    a.navbar-brand {
+        padding: 30px;
+    }
+    .internalize {
+        margin-top: 0;
+    }
+}

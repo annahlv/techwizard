@@ -1,0 +1,33 @@
+{
+  "name": "techwizard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Anna Holovan",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.8",
+    "browser-sync": "^2.26.5",
+    "express": "^4.17.0",
+    "express-handlebars": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-wrap": "^0.15.0",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.8.6",
+    "sequelizepg": "^1.0.0"
+  }
+}

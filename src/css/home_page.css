@@ -1,0 +1,136 @@
+﻿.card-title {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.11061875rem;
+    line-height: normal;
+    color: #505050;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.77743125rem;
+    line-height: normal;
+    color: #505050;
+}
+
+.card {
+    background-color: rgb(241, 241, 241);
+    -webkit-box-shadow: 1px 2px #E5E5E5;
+    -moz-box-shadow: 1px 2px #E5E5E5;
+    box-shadow: 2.5px 2.5px 10px rgba(88, 88, 88, 0.3);
+    border: 1px solid #E5E5E5;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+/*.card:hover .preview {
+    transform: translateY(0);
+    opacity: 1;
+    display: inline;
+}*/
+
+.card:hover {
+    
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
+
+}
+
+.mCS-my-theme.mCSB_scrollTools .mCSB_dragger .mCSB_draggerContainer {
+    width: 100%;
+    
+}
+
+.mCS-my-theme.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #C74242;
+    height: 0.5rem;
+}
+
+.mCS-my-theme.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: white;
+}
+
+.img-cont {
+    width: auto;
+}
+.slick-slide img {
+    max-height: 150px;
+    filter: opacity(30%);
+    -webkit-filter: opacity(30%);
+}
+.slick-slide img:hover {
+
+    filter: opacity(100%);
+    -webkit-filter: opacity(100%);
+    transition: all .5s ease-out;
+}
+header {
+    height:100vh;
+}
+
+#stars {
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+    background-color: #C74242;
+    background: radial-gradient(ellipse at center, rgb(216, 59, 59) 0%, rgb(170, 39, 39) 100%);
+    background-size: cover;
+    margin-top: -3.5rem;
+    height: 100%;
+}
+
+
+.bg-light {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+#about .fontmdsize {
+    overflow: hidden;
+}
+
+.slick-next, .slick-prev {
+    display: none;
+}
+
+#about .fontmdsize li::before {
+    content: url('../svg/baseline-check_circle_outline-24px.svg');
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#about .fontmdsize {
+    height: 12rem;
+}
+.servisstyle {
+    background-color: #E5E5E5;
+    height: 16.3125rem;
+}
+.footerbox {
+    background-color: #C4C4C4;
+}
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .card-text {
+        font-size: 0.875rem;
+    }
+}
+@media (min-width: 1200px) {
+  
+}

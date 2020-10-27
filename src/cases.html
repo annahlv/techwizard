@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css" />
+    <link href="css/main.css" rel="stylesheet" />
+    
+<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/techwizard.svg" class="logo"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto mt-4 mb-3">
+                    <li class="nav-item pt-2 mr-md-2  mr-xl-5">
+                        <a class="nav-link" href="./about.html" id="id1">About us</a>
+                    </li>
+                    <li class="nav-item pt-2 mr-md-2 mr-xl-5">
+                        <a class="nav-link" href="./cases.html" id="id2">Cases</a>
+                    </li>
+                    <li class="nav-item pt-2 mr-md-2 mr-xl-5">
+                        <a class="nav-link " href="./contact.html" id="id11">Contacts</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-sm-5 ml-xl-0 mt-auto mt-xl-0">
+                        <ul class="nav navbar-right flex-column ">
+                            <li class="w-100">
+                                <a class="nav-link" href="#">
+                                    <i class="material-icons">
+                                        alternate_email
+                                    </i>
+                                    mail@techwizard.by
+                                </a>
+                            </li>
+                            <li class="w-100">
+                                <a class="nav-link disabled" href="#">
+                                    <i class="material-icons">
+                                        call
+                                    </i>+375 (29) 123-45-68
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pt-2 mr-sm-5 mr-xl-0">
+                            <!--<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                                <i class="fas fa-globe"></i> 
+                                <span class="mr-5" id="id12">English</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Russian</a>
+                            </div>-->
+                            <select class="form-control internalize pl-5 float-right d-none d-lg-block" id="sel1" name="sellist1">
+                                <option id="lg" value="en">English</option>
+                                <option value="ru">Russian</option>
+    
+                            </select>
+                            <select class="form-control internalize pl-5 float-right d-lg-none" id="sel1" name="sellist1">
+                                <option id="sm" value="en">En</option>
+                                <option value="ru">Ru</option>
+                            </select>          
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="container cases_page margint">
+        <div class="row">
+            <div class="col-12 col-md-6 my-3">
+                <img class="w-100 img-fluid" src="img/project1.png" alt="Alternate Text" />
+
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="row d-flex h-100">
+                    <div class="col-12 align-self-center">
+                        <h3 class="mt-auto">myle.de</h3>
+                        <h6 id="id50">Drupal, HTML5, PayPal, SEO optimization, design
+                        </h6>
+                        <p class="fontmdsize" id="id56">We faced a task of involving new partners and customers into German B2C ecommerce platform. SEO optimization was implemented in the core of Drupal-powered website, as well as PayPal mass payment system. Our UI designers delivered new responsive design, ensuring the application is smoothly displayed both on PCs and touch-first devices. The application became convenient for content publishing and advertising.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-6 my-3">
+                <img class="w-100 img-fluid" src="img/project2.png" alt="Alternate Text" />
+
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="row d-flex h-100">
+                    <div class="col-12 align-self-center">
+                        <h3 class="mt-auto">study-europe.net</h3>
+                        <h6 id="id51">Drupal, migration, backend</h6>
+                        <p class="fontmdsize" id="id57">Our task was migrating the web-portal under development on Drupal 7. We delivered several access roles for different types of users, faceted search, Citrix webinars and livestreams, implemented rating system, user notifications, Google maps and Memcache integration. Drupal has covered the requirements of SEO optimization, registration process and content management. The application was tested under load, as long as it was promoted during the development process.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-6 my-3">
+                <img class="w-100 img-fluid" src="img/project3.png" alt="Alternate Text" />
+
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="row d-flex h-100">
+                    <div class="col-12 align-self-center">
+                        <h3 class="mt-auto">perspectivas.de</h3>
+                        <h6 id="id52">Drupal, HTML5, full-cycle development</h6>
+                        <p class="fontmdsize" id="id58">We constructed a multilingual website for Stuttgart marketing agency using Drupal 8 technology. Perspectivas is a German exchanging platform that sells services of recruiting employees abroad Germany, their adaptation and relocation, while the English version engages foreign job seekers. Backend requirements were content management, blog section, media library and FAQ; also we delivered frontend part to provide intuitive and stylish UI/UX.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <img class="w-100 img-fluid" src="img/project4.png" alt="Alternate Text" />
+
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="row d-flex h-100">
+                    <div class="col-12 align-self-center">
+                        <h3 class="mt-auto">itransition.com</h3>
+                        <h6 id="id53">Drupal 8, migration, modules</h6>
+                        <p class="fontmdsize" id="id59">We migrated renewed Itransition website on Drupal 8, as well as their old corporate blog which was earlier powered by Wordpress. The solutions we also implemented were custom anti-spam system to prevent receiving messages from bots, system maintenance and support.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="row">
+            <div class="col-12  my-3">
+                <h2 id="id19" class="text-center my-4 my-md-5 red">
+                    Contact us
+                </h2>
+            </div>
+            <div class="col-12">
+                <form data-toggle="modal" data-target="#myModal">
+                    <div class="form-row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="name" id="id20">Name:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" id="id21">Email:</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" id="id22">Phone number:</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="comment" id="id23">Your message:</label>
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn my-4 buttonstyle" id="id24 sbmt">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+            <ul class="nav pt-3 pb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        <img src="img/techwizard.svg" class="logo"/>
+                    </a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link text-uppercase" href="index.html" id="id49">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="about.html" id="id1">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="cases.html" id="id2">Cases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="contact.html" id="id11" tabindex="-1" aria-disabled="true">Contacts</a>
+                </li>
+            </ul>
+            <div class="row border-top pt-3 pb-4">
+                <div class="col-12">
+                    <span>
+                        &copy; OOO "Техвизард"
+                    </span>
+
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
+    <script type="text/javascript" src="https://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="http://requirejs.org/docs/release/2.1.15/minified/require.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/ironwallaby/delaunay/master/delaunay.js"></script>
+    <script type="text/javascript" src="js/headersky.js"></script>
+    <!--<script type="text/javascript" src="js/readmorelink.js" defer></script>-->
+</body>
+</html>
+

@@ -1,0 +1,62 @@
+<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/techwizard.svg" class="logo"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto mt-4 mb-3">
+                    <li class="nav-item pt-2 mr-md-2  mr-xl-5">
+                        <a class="nav-link" href="./about.html" id="id1">About us</a>
+                    </li>
+                    <li class="nav-item pt-2 mr-md-2 mr-xl-5">
+                        <a class="nav-link" href="./cases.html" id="id2">Cases</a>
+                    </li>
+                    <li class="nav-item pt-2 mr-md-2 mr-xl-5">
+                        <a class="nav-link " href="./contact.html" id="id11">Contacts</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-sm-5 ml-xl-0 mt-auto mt-xl-0">
+                        <ul class="nav navbar-right flex-column ">
+                            <li class="w-100">
+                                <a class="nav-link" href="#">
+                                    <i class="material-icons">
+                                        alternate_email
+                                    </i>
+                                    mail@techwizard.by
+                                </a>
+                            </li>
+                            <li class="w-100">
+                                <a class="nav-link disabled" href="#">
+                                    <i class="material-icons">
+                                        call
+                                    </i>+375 (29) 123-45-68
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pt-2 mr-sm-5 mr-xl-0">
+                            <!--<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                                <i class="fas fa-globe"></i> 
+                                <span class="mr-5" id="id12">English</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Russian</a>
+                            </div>-->
+                            <select class="form-control internalize pl-5 float-right d-none d-lg-block" id="sel1" name="sellist1">
+                                <option id="lg" value="en">English</option>
+                                <option value="ru">Russian</option>
+    
+                            </select>
+                            <select class="form-control internalize pl-5 float-right d-lg-none" id="sel1" name="sellist1">
+                                <option id="sm" value="en">En</option>
+                                <option value="ru">Ru</option>
+                            </select>          
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
